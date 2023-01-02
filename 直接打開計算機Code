@@ -1,0 +1,3 @@
+Private Sub Document_Open()
+    a = Shell("C:\Windows\System32\calc.exe")
+End Sub
